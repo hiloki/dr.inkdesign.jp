@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+    <title>inkdesign</title>
+    <link>http://dr.inkdesign.jp</link>
+    <atom:link href="http://dr.inkdesign.jp/feed.xml" rel="self" type="application/rss+xml" />
+    <description>Hiroki Tani is Front-end engineer, Writer &amp; Speaker</description>
+    <language>ja</language>
+    
+    <item>
+        <title>巴会会長が選ぶもう1回行きたい最強においしい居酒屋10選</title>
+        <link>http://dr.inkdesign.jp/posts/notes/tomoe-selection</link>
+        <description>最近月1で開催されている巴会、そんな巴会会長がめっちゃうまかったよっていうお店を紹介していきます！</description>
+        <pubDate>Tue, 01 Apr 2014 09:00:00 +0900</pubDate>
+        <guid isPermaLink="true">http://dr.inkdesign.jp/posts/notes/tomoe-selection</guid>
+    </item>
+    
+    </channel>
+</rss>

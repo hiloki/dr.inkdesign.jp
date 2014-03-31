@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Styleguide | inkdesign</title>
+<meta name="description" content="Front-end Styleguide" />
+<meta name="keywords" content="web, design, development, writing, speaking" />
+<meta name="generator" content="DocPad v6.59.6" />
+<link  rel="stylesheet" href="/styles/all.min.css" />
+<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="/icons/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-precomposed.png" />
+<link rel="canonical" href="http://dr.inkdesign.jp/styleguide/" />
+<meta property="og:title" content="Styleguide | inkdesign" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://dr.inkdesign.jp/styleguide/" />
+<meta property="og:image" content="http://dr.inkdesign.jp/ogtomoe.png" />
+<meta property="og:site_name" content="drinkdesign">
+<meta property="og:locale" content="ja_JP">
+<meta prefix="fb:http://ogp.me/ns/fb#" property="fb:admins" content="1252308549">
+</head>
+<body>
+<header id="the-header" role="banner">
+	<h1 class="logo site-title">
+		<a href="/"><img src="/images/tomoe.png" class="logo__symbol"></a>
+		<span class="logo__type brand-type">Tomoe-kai</span>
+	</h1>
+</header>
+<div id="the-content">
+	<article class="entry l-container">
+	<header class="entry__header">
+		<h1 class="entry__title">Styleguide</h1>
+		<p class="entry__date brand-type"><i class="icon icon--drop"></i> <span class="quiet">Published on</span> Dec 22, 2013</h1>
+	</header>
+	<div class="entry__body">
+		<p><h1 id="-">大見出し</h1>
+<h2 id="-">中見出し</h2>
+<h3 id="-">小見出し</h3>
+<p>段落段落段落段落段落段落</p>
+<ul>
+<li>リスト</li>
+<li>リスト</li>
+<li>リスト</li>
+</ul>
+<blockquote>
+<p>引用引用引用引用引用引用
+引用引用引用引用引用引用
+引用引用引用引用引用引用</p>
+</blockquote>
+<ol>
+<li>順列リスト</li>
+<li>順列リスト</li>
+<li>順列リスト</li>
+</ol>
+<p><small>small</small></p>
+<pre class="highlight"><code class="xml"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"entry__body"</span>&gt;</span>
+        <span class="tag">&lt;<span class="title">p</span>&gt;</span><span class="tag">&lt;<span class="title">p</span>&gt;</span>Web ComponentsはWebのUIのコンポーネント化を実現するための各種仕様の総称です。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;<span class="title">p</span>&gt;</span>DOMとスタイルをカプセル化する<span class="tag">&lt;<span class="title">strong</span>&gt;</span>Shadow DOM<span class="tag">&lt;/<span class="title">strong</span>&gt;</span>、任意の要素または既存の要素を拡張する<span class="tag">&lt;<span class="title">strong</span>&gt;</span>Custom Elements<span class="tag">&lt;/<span class="title">strong</span>&gt;</span>、それらをパッケージ化し再利用できるようにするための<span class="tag">&lt;<span class="title">strong</span>&gt;</span>HTML Imports<span class="tag">&lt;/<span class="title">strong</span>&gt;</span>を含みます。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;<span class="title">p</span>&gt;</span>マークアップをテンプレート化する<span class="tag">&lt;<span class="title">strong</span>&gt;</span>HTML Templates<span class="tag">&lt;/<span class="title">strong</span>&gt;</span>も含まれていたのですが、つい最近HTML仕様に組み込まれたようです。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;<span class="title">p</span>&gt;</span>ちなみにWeb Componentsについて調べていると、Decoratorsという仕様にふれていることもありますが、これのことは忘れていいいようです。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;<span class="title">p</span>&gt;</span>Web Componentsの仕様・仕組みについては、先日おこなわれたHTML5 Conferenceで、Shadow DOMのSpec Editorである<span class="tag">&lt;<span class="title">a</span> <span class="attribute">href</span>=<span class="value">"http://www.youtube.com/watch?v=wvggCAG5ttw&amp;feature=share"</span>&gt;</span>夷藤さんのお話<span class="tag">&lt;/<span class="title">a</span>&gt;</span>が実にわかりやすいとはおもうので、そちらを観るのをおすすめします。<span class="tag">&lt;/<span class="title">p</span>&gt;</span>
+<span class="tag">&lt;<span class="title">div</span> <span class="attribute">class</span>=<span class="value">"entry__media"</span>&gt;</span>
+<span class="tag">&lt;<span class="title">iframe</span> <span class="attribute">width</span>=<span class="value">"560"</span> <span class="attribute">height</span>=<span class="value">"315"</span> <span class="attribute">src</span>=<span class="value">"//www.youtube.com/embed/wvggCAG5ttw"</span> <span class="attribute">frameborder</span>=<span class="value">"0"</span> <span class="attribute">allowfullscreen</span> <span class="attribute">class</span>=<span class="value">"u-center embed"</span>&gt;</span><span class="tag">&lt;/<span class="title">iframe</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">div</span>&gt;</span>
+</code></pre>
+<pre class="highlight"><code class="css"><span class="class">.entry-list__date</span> <span class="rules">{
+    <span class="rule"><span class="attribute">float</span>:<span class="value"> left</span></span>;
+    <span class="rule"><span class="attribute">margin-right</span>:<span class="value"> <span class="number">1</span>em</span></span>;
+    <span class="rule"><span class="attribute">width</span>:<span class="value"> <span class="number">6</span>em</span></span>;
+    <span class="rule"><span class="attribute">line-height</span>:<span class="value"> <span class="number">2.1</span></span></span>;
+    <span class="rule"><span class="attribute">color</span>:<span class="value"> <span class="hexcolor">#4b575a</span></span></span>;
+    <span class="rule"><span class="attribute">font-size</span>:<span class="value"> <span class="number">12</span>px
+</span></span></span>}
+</code></pre>
+</p>
+	</div>
+	<div class="entry__share">
+		Share on <a href="https://www.facebook.com/sharer/sharer.php?u=http://dr.inkdesign.jp/styleguide" target="_blank">Facebook</a>, <a href="https://twitter.com/intent/tweet?url=http://dr.inkdesign.jp/styleguide&via=hiloki&text=Styleguide" target="_blank">Twitter</a>
+	</div>
+</article>
+</div>
+<div class="hr hr--blank l-container"></div>
+<footer id="the-footer" role="contentinfo">
+	<address class="author">
+		<img src="/images/tomoe.jpg" class="author__image">
+		<p class="author__name brand-type">Tomoe</p>
+		<p class="author__description brand-type brand-type--italic">Front-end Engineer, Drinker</p>
+	</address>
+	<ul class="footlinks">
+		<li><a href="http://inkdesign.jp">inkdesign.jp</a></li>
+	</ul>
+</footer>
+<!-- 
+<script defer="defer"  src="/scripts/all.min.js"></script> -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46114692-1', 'inkdesign.jp');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
